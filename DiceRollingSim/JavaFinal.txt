@@ -1,0 +1,112 @@
+The final project meets the requirements as listed below (fill in the blanks):
+
+Required items (must earn all 20 points in items 1-8 to get full credit on the final project):
+
+1)	(4 pts: 2 pts per class) Write and use at least 2 classes (you can count a driver class as one of these classes).
+
+The first class I wrote was Dice.  The purpose of this class is to serve as the main driver class.
+
+The second class I wrote was DiceGUI.  The purpose of this class is to set up all the functions and GUI.
+
+
+2)	(2 pts) Write and use at least 2 constructors; only one constructor can be no-arg.
+
+The first constructor is found in the file DiceGUI.java on line 39.  The header for the constructor is DiceGUI()
+
+The second constructor is found in the file DiceGUI on line 62.  The header for the constructor is DiceGUI(int startNum).
+
+
+3)	(2 pts) Write (and use) appropriate getters and setters for your private instance variables (you must have at least one getter and at least one setter).
+
+A getter is found in the file DiceGUI.java on line 83.  It is called in the file DiceGUI.java on line 227.
+
+Another setter is found in the file DiceGUI.java on line 90.  It is called in the file DiceGUI on line 228.
+
+
+4)	(3 pts) Use a decision (e.g. if-else).
+
+A decision is used in the file DiceGUI.java on line 98 to catch if the user enters more than 6 dice, or less than 1.
+
+
+5)	(3 pts) Use a loop (e.g. for, while).
+
+A loop is used in the file DiceGUI.java on line 155 to loop through all the dice the user currently has, and enter a new random number for each.
+
+
+6)	(2 pts) Write and use a method, other than a getter, that returns a value.
+
+The method average is defined in the file DiceGUI.java on line 306.  The method header is public double average(int i1, int i2).  This method is called in the file DiceGUI.java on line 306.
+
+
+7)	(2 pts) Write and use a method, other than a setter, that has two or more parameters.
+
+The method average is defined in the file DiceGUI.java on line 306.  The method header is public double average(int i1, int i2).  This method is called in the file DiceGUI.java on line 317.
+
+8) (2 pts) Ensure your program does not have any run-time errors.  You should not assume a nice user.  You may need to implement exception handling to meet this requirement (which counts toward the extra requirements category below).
+
+***********************************
+Optional items (must earn 10 points from these options to get full credit on the final project):
+
+9)	(2 pts) Use an array.
+
+An array is declared in the file DiceGUI.java on line 25.  It is initialized in the file DiceGUI.java on line 151, and the contents of the array are accessed in the file DiceGUI.java on line 160.
+
+
+
+12)	(2 pts) Write a try-catch block to perform exception handling. Your header for your main() method should NOT say "throws Exception" (Hints: You’ll need use a try-catch to do file I/O.  Consult the Java API for possible exceptions that various methods can throw.).
+
+A try-catch block is found on lines 93-96 of the file DiceGUI.java.
+
+13)	(2 pts) Utilize inheritance: write and use your own class that extends another class (either one that you write yourself, or one that is part of the bookClasses or the standard Java API).
+
+A class that inherits from another class is DiceGUI extends JFrame, in the file DiceGUI.java.
+
+
+17)	(1 pt) Accept keyboard input.  Note: If you do not create a GUI, this should be done using the Scanner class.  If you do create a GUI, you should use a text box or another similar input gathering component; you should NOT expect the user to type input outside of your GUI window(s).
+
+Keyboard input is accepted by the code in the file DiceGUI.java on line 93.
+
+
+18)	(1 pt) Display output to the screen.  Note: If you do not create a GUI, this should be done using System.out.println.  If you do create a GUI, to earn credit for this, some text-displaying component must change while the program is running.
+
+Output is displayed to the screen in the file DiceGUI.java on line 227.
+
+
+19)	(2 pts per component, up to 6 pts) Use the following components, handling events that they generate (you cannot just use 3 of the same type of component - you must use 3 different components).  Each component must DO something in the final version of the project - it can’t just be decorative:
+a)	JLabel
+c)	JButton
+e)	JRadioButton (don’t forget to use a ButtonGroup)
+
+
+The three components we used were:
+JLabel created on line 177 of DiceGUI.java
+JButton created on line 265 of DiceGUI.java
+JRadioButtonMenuItem created on line 219 of DiceGUI.java (I don't know if radio buttons count the same as menu item radio buttons)
+
+20)	(1 pt per layout manager used) Use the layout managers listed below: 
+a)	FlowLayout
+b)	BorderLayout
+c)	GridLayout
+
+The GridLayout manager was applied to DiceGUI jframe on line 41 of DiceGUI.java
+
+
+21)	(1 pt) Use a JPanel (Hint: You’ll need to do this in order to use more than one layout manager).
+
+A JPanel instantiation can be found on line 140 of DiceGUI.java (I initialized this JPanel on line 29).
+
+
+24)	(1 pt) Use a non-default color somewhere in your GUI.
+A non-default color was used on lines 333-335. (Although the methods themselves did not work).
+
+
+26)	(1 pt) Call repaint() somewhere in your code, to immediately refresh the graphics in some component.
+
+repaint() is called on line 196 of DiceGUI.java.
+
+
+
+28)	(1 pt) Have a menu system.
+
+A menu system is implemented in lines 204-260 of the file DiceGUI.java.
+
